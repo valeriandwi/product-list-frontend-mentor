@@ -1,7 +1,11 @@
 import MainPage from "./pages/main";
 
 function App() {
-  return <MainPage />;
+  return (
+    <div style={{ fontFamily: "RedHat" }}>
+      <MainPage />
+    </div>
+  );
 }
 
 export default App;

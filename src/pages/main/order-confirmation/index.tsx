@@ -13,6 +13,7 @@ const OrderConfirmation: React.FC<OrderConfirmationProps> = ({ onClose }) => {
       <img
         src="./assets/images/icon-order-confirmed.svg"
         className="h-[48px] w-[48px]"
+        alt="icon-order-confirmed"
       />
       <div className="flex flex-col space-y-1">
         <p className="text-3xl font-bold text-rose-900">Order Confirmed</p>
